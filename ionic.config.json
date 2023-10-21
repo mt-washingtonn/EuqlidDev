@@ -1,0 +1,7 @@
+{
+  "name": "Euqlid_dev",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
