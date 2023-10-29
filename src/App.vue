@@ -1,4 +1,5 @@
 <template>
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#3880ff" />
   <ion-app>
     <ion-router-outlet />
   </ion-app>
