@@ -24,17 +24,17 @@
     <a href="/login"><ion-button fill="solid">Создать аккаунт</ion-button></a>
 </div>
   </template>
-  
+    
   <script lang="ts">
     import { IonInput, IonItem, IonList } from '@ionic/vue';
-    import { defineComponent } from 'vue';
-  
+    import { defineComponent } from 'vue';   
+    
     export default defineComponent({
       components: { IonInput, IonItem, IonList },
-    });
+    })
   </script>
 
-  <style scoped>
+<style scoped>
 
 .center {
     text-align: center;

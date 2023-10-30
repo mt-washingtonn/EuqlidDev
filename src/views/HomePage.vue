@@ -13,48 +13,48 @@
       </ion-header>
 
 
-  
-      <div class="container">
-      <div class="card1">
-    
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title>Здраствуй (Имя пользователя)</ion-card-title>
-        <ion-card-subtitle>Удачи в учебе!</ion-card-subtitle>
-      </ion-card-header>
-    </ion-card>
-  </div>
-  <div class="loc">
-  <IonItem>
-    <ion-label>
-      Следующая пара в 15:50
-    </ion-label>
-  </IonItem>
-  
-  <ion-button fill="" @click="$router.push('/tabs/tab2')">WEB разработка гл.корпус 34 кб</ion-button>
-  </div>
-    
-  <IonItem>
-    <ion-label>
-    Вас также может заинтересовать
-    </ion-label>
-  </IonItem>
-  <div class="card2">
-      <ion-card button="true" @click="$router.push('/tabs/news')">
-        <img alt="new" src="https://ionicframework.com/docs/img/demos/card-media.png">
-        <ion-card-header>
-          <ion-card-title>Повышение стипендии</ion-card-title>
-          <ion-card-subtitle>Рост прожиточного минимума, и влияние его на стипендию</ion-card-subtitle>
-        </ion-card-header>
 
-        <ion-card-content>
-          О повышении стипендии.
-        </ion-card-content>
-      </ion-card>
-  </div>
-</div>
-</ion-content>
-</ion-page>
+      <div class="container">
+        <div class="card1">
+
+          
+            <ion-card-header>
+              <ion-card-title>Здраствуй(Имя пользователя)</ion-card-title>
+              <ion-card-subtitle>Удачи в учебе!</ion-card-subtitle>
+            </ion-card-header>
+          
+        </div>
+        <div class="loc">
+          <IonItem>
+            <ion-label>
+              Следующая пара в 15:50
+            </ion-label>
+          </IonItem>
+
+          <ion-button fill="" @click="$router.push('/tabs/tab2')">WEB разработка гл.корпус 34 кб</ion-button>
+        </div>
+
+        <IonItem>
+          <ion-label>
+            Вас также может заинтересовать
+          </ion-label>
+        </IonItem>
+        <div class="card2">
+          <ion-card button="true" @click="$router.push('/tabs/news')">
+            <img alt="new" src="https://ionicframework.com/docs/img/demos/card-media.png">
+            <ion-card-header>
+              <ion-card-title>Повышение стипендии</ion-card-title>
+              <ion-card-subtitle>Рост прожиточного минимума, и влияние его на стипендию</ion-card-subtitle>
+            </ion-card-header>
+
+            <ion-card-content>
+              О повышении стипендии.
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </div>
+    </ion-content>
+  </ion-page>
 </template>
 
 <script setup lang="ts">
